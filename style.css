@@ -60,7 +60,7 @@ body{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(#5268FF 3.6deg, #ededed 0deg);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -79,7 +79,7 @@ body{
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: #7d2ae8;
+    color: #5268FF;
 }
 
 .text{
