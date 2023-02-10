@@ -1,9 +1,11 @@
-let circularProgress = document.querySelector(".circular-progress"),
-  progressValue = document.querySelector(".progress-value");
+const donwloadBox = document.querySelector(".download-box"),
+        
+      circularProgress = document.querySelector(".circular-progress"),
+      progressValue = document.querySelector(".progress-value");
 
 let progressStartValue = 0,
-  progressEndValue = 47,
-  speed = 100;
+    progressEndValue = 47,
+    speed = 100;
 
 let progress = setInterval(() => {
   progressStartValue++;
