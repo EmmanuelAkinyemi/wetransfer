@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "ActieGrotesqueBold";
+    src: url("ActiefGrotesque_W_Bd-1bdd99f9.woff");
+}
+@font-face{
+    font-family: "ActieGrotesqueRegular";
+    src: url("ActiefGrotesque_W_Regular-1f437876.woff");
+}
+@font-face{
+    font-family: "GtSuper";
+    src: url("GT-Super-WT-Super-1b214df1.woff");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("trans.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.intro-text{
+    font-family: "ActieGrotesqueRegular";
+    font-size: 1.5rem;
+}
+.reset-font{
+    font-family: "ActieGrotesqueRegular";
+}
+.btn{
+    font-family: "ActieGrotesqueRegular";
+}
+
+.details{
+    font-family: "GtSuper",sans-serif;
+}
+
+.modal{
+    font-family: "ActieGrotesqueRegular",sans-serif;
+}
