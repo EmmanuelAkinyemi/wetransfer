@@ -44,3 +44,46 @@ body{
 .modal{
     font-family: "ActieGrotesqueRegular",sans-serif;
 }
+
+.loading-container{
+    display: flex;
+    width: 320px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #ffff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}

@@ -17,7 +17,7 @@ body{
 
 .container{
     display: flex;
-    width: 420px;
+    width: 320px;
     padding: 50px 0;
     border-radius: 8px;
     background: #ffff;

@@ -1,7 +1,14 @@
-const donwloadBox = document.querySelector(".download-box"),
-        
+const downloadBox = document.querySelector(".download-box"),
+      downloadBtn = document.querySelector("#download-btn"), 
+      loadingBox = document.querySelector(".loading-container"), 
       circularProgress = document.querySelector(".circular-progress"),
       progressValue = document.querySelector(".progress-value");
+
+downloadBtn.addEventListener("click", ()=>{
+    downloadBox.classList.add("d-none");
+    loadingBox.classList.remove("d-none");
+    console.log("the download btn was clicked")
+})
 
 let progressStartValue = 0,
     progressEndValue = 47,

@@ -23,6 +23,7 @@
     <div class="container text-center pt-5">
       <div class="row justify-content-space-between p-5 mt-5 align-items-center">
         <div class="col-sm-12 col-lg-3 order-2 order-lg-1 py-2">
+
           <div class="card text-center download-box">
             <div class="card-body text-center">
               <div class="mb-3">
@@ -47,10 +48,17 @@
                 <p class="reset-font text-secondary">12mb</p>
                 <i class="fa-regular fa-circle-down text-primary"></i>
               </div>
-              <button class="btn btn-primary rounded-4 px-4 py-2 text-bold" data-bs-toggle="modal"
+              <button id="download-btn" class="btn btn-primary rounded-4 px-4 py-2 text-bold" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">Download All</button>
             </div>
           </div>
+          <div class="loading-container d-none">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+    
+            <span class="text"> HTML & CSS</span>
+        </div>
         </div>
         <div class="details col-sm-12 col-lg-8 text-light order-1 order-lg-2">
           <h6 class="intro-text">Welcome to Wetransfer</h6>
