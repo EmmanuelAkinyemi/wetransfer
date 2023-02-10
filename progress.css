@@ -47,7 +47,7 @@ body{
 
 .progress-value{
     position: relative;
-    font: 40px;
+    font-size: 40px;
     font-weight: 600;
     color: #7d2ae8;
 }
