@@ -18,7 +18,7 @@ let progress = setInterval(() => {
   progressStartValue++;
 
   progressValue.textContent = `${progressStartValue}%`;
-  circularProgress.style.background = `conic-gradient(#7d2ae8 ${
+  circularProgress.style.background = `conic-gradient(#5268FF ${
     progressStartValue * 3.6
   }deg, #ededed 0deg)`;
 
