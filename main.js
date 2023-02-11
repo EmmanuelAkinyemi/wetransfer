@@ -1,4 +1,5 @@
-const downloadBox = document.querySelector(".download-box"),
+const myModal = new bootstrap.Modal("#pop-up"),
+      downloadBox = document.querySelector(".download-box"),
       downloadBtn = document.querySelector("#download-btn"), 
       loadingBox = document.querySelector(".loading-container"), 
       circularProgress = document.querySelector(".circular-progress"),
@@ -10,9 +11,11 @@ downloadBtn.addEventListener("click", ()=>{
     console.log("the download btn was clicked")
 })
 
+
+
 let progressStartValue = 0,
     progressEndValue = 47,
-    speed = 100;
+    speed = 200;
 
 let progress = setInterval(() => {
   progressStartValue++;
@@ -24,5 +27,12 @@ let progress = setInterval(() => {
 
   if (progressStartValue == progressEndValue) {
     clearInterval(progress);
+    
   }
 }, speed);
+
+
+//the pop-up modal
+window.addEventListener(progressEndValue, ()=>{
+  myModal.show();
+})
