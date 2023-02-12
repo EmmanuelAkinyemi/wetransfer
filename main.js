@@ -27,13 +27,14 @@ let progress = setInterval(() => {
 
   if (progressStartValue == progressEndValue) {
     clearInterval(progress);
-    window.addEventListener('DOMContentLoaded', ()=>{
-  setInterval(()=>{
-    myModal.show();
-  },200);
-})
+    
   }
 }, speed);
 
 
 //the pop-up modal
+if (progressStartValue == progressEndValue) {
+  window.addEventListener('DOMContentLoaded', ()=>{
+    myModal.show();
+  })
+}
