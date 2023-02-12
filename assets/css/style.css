@@ -1,14 +1,14 @@
 @font-face{
     font-family: "ActieGrotesqueBold";
-    src: url("ActiefGrotesque_W_Bd-1bdd99f9.woff");
+    src: url("../fonts/ActiefGrotesque_W_Bd-1bdd99f9.woff");
 }
 @font-face{
     font-family: "ActieGrotesqueRegular";
-    src: url("ActiefGrotesque_W_Regular-1f437876.woff");
+    src: url("../fonts/ActiefGrotesque_W_Regular-1f437876.woff");
 }
 @font-face{
     font-family: "GtSuper";
-    src: url("GT-Super-WT-Super-1b214df1.woff");
+    src: url("../fonts/GT-Super-WT-Super-1b214df1.woff");
 }
 
 *{
